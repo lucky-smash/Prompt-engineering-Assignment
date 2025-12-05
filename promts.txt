@@ -1,0 +1,148 @@
+==============================
+GLOBAL META PROMPT
+==============================
+
+You are a senior front-end developer and UI/UX designer.
+
+Your task is to generate production-ready website sections.
+
+Global rules you must ALWAYS follow:
+1. Use semantic HTML tags.
+2. Use Tailwind CSS utility classes only (no inline style, no custom CSS).
+3. The layout must be fully responsive (mobile-first).
+4. Use clean spacing, consistent typography, and good visual hierarchy.
+5. Make the design modern, professional, and minimal.
+6. Use accessible markup (labels, aria attributes where needed).
+7. Do not include <html>, <head>, <body> or Tailwind CDN. 
+8. Return exactly ONE top-level tag: <nav>, <section>, or <footer> depending on my request.
+
+The brand name for this page is “PromptCraft”.
+A soft, neutral color palette and rounded corners are preferred.
+
+If you understand, reply “Ready for section prompts.”
+
+
+==============================
+SECTION 1 – NAVBAR PROMPT
+==============================
+
+Generate a responsive navigation bar:
+
+- Top-level tag: <nav>.
+- Left side: brand name “PromptCraft”.
+- Center/right: links – Home, Features, Pricing, Contact.
+- On desktop: inline menu with a primary button “Get Started”.
+- On mobile: hamburger button that toggles a dropdown menu.
+- Sticky at the top with subtle shadow.
+- White background with proper padding and spacing.
+- Use proper aria-labels for the mobile menu button.
+- Ensure good alignment for both desktop and mobile.
+
+Return only the <nav>…</nav> markup.
+
+
+==============================
+SECTION 2 – HERO SECTION PROMPT
+==============================
+
+Generate a responsive hero section:
+
+- Top-level tag: <section>.
+- Two-column layout on desktop, stacked on mobile.
+- Left column should include:
+  - Small eyebrow text: “AI-First Frontend Workflows”.
+  - A bold main headline about building UIs faster using AI.
+  - A short descriptive paragraph (2–3 lines).
+  - Two CTA buttons:
+    - Primary: “Start Free Trial”
+    - Secondary: “Watch Demo”
+- Right column:
+  - A UI preview/mock area using a card-style layout with gradient background.
+- Light gradient background for the entire hero section.
+- Max-width container with generous vertical padding.
+- Clear visual hierarchy and spacing.
+
+Return only the <section>…</section> markup.
+
+
+==============================
+SECTION 3 – FEATURES / SERVICES PROMPT
+==============================
+
+Generate a features/services section:
+
+- Top-level tag: <section>.
+- Centered section title: “Supercharge Your Frontend Workflow”.
+- A subtitle line below the heading.
+- A responsive grid of 4 feature cards.
+- Each feature card must include:
+  - An icon placeholder (rounded background circle with a letter or symbol).
+  - Feature title.
+  - Short description (1–2 lines).
+- Grid behavior:
+  - 1 column on small screens
+  - 2 columns on medium screens
+  - 4 columns on large screens
+- Cards should have:
+  - White background
+  - Rounded corners
+  - Subtle shadow
+  - Hover animation (slight translate and shadow)
+- Proper spacing between cards and sections.
+
+Return only the <section>…</section> markup.
+
+
+==============================
+SECTION 4 – CONTACT / LEAD FORM PROMPT
+==============================
+
+Generate a contact / lead capture section:
+
+- Top-level tag: <section>.
+- Two-column layout on desktop, stacked on mobile.
+- Left column:
+  - Section heading.
+  - Short paragraph encouraging users to get in touch.
+  - 3 small bullet points highlighting benefits.
+- Right column:
+  - A white card-style form container with rounded corners and soft shadow.
+  - Form fields:
+    - Full Name (required)
+    - Work Email (type="email", required)
+    - Company / Project Name (optional)
+    - Message (textarea, required)
+  - Proper <label> tags for each input.
+  - Use required and aria-required attributes.
+  - Primary submit button.
+  - Submit button should be full-width on mobile.
+- Use a soft background color for the whole section.
+
+Return only the <section>…</section> markup.
+
+
+==============================
+SECTION 5 – FOOTER PROMPT
+==============================
+
+Generate a responsive footer section:
+
+- Top-level tag: <footer>.
+- Dark background with light text.
+- Main footer content divided into 3 blocks:
+  1. Left block:
+     - Brand name “PromptCraft”.
+     - Short 2–3 line brand description.
+  2. Middle block:
+     - Heading “Product”.
+     - Links: Overview, Features, Pricing.
+  3. Right block:
+     - Heading “Company”.
+     - Links: About, Blog, Contact.
+- Bottom row with a thin top border:
+  - Left: © 2025 PromptCraft. All rights reserved.
+  - Right: Text-based social links – Twitter, GitHub, LinkedIn.
+- Layout should stack neatly on mobile.
+- Proper padding and alignment.
+
+Return only the <footer>…</footer> markup.
